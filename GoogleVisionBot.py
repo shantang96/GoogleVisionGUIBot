@@ -1,6 +1,7 @@
 import pyautogui
 from time import sleep
 
+##DONT FORGET TO COPY THIS LINK INTO CLIPBOARD
 #urlx = https://cloud.google.com/vision/
 x=0
 
@@ -36,7 +37,7 @@ pyautogui.moveTo(0, 800)
 #CLICK IMAGE BOX
 pyautogui.moveTo(618, 325)
 pyautogui.click()
-pyautogui.moveTo(576, 167)
+pyautogui.moveTo(552, 245)
 sleep(2)
 pyautogui.doubleClick()
 pyautogui.hotkey('enter')
