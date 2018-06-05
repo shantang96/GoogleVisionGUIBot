@@ -37,29 +37,12 @@ pyautogui.moveTo(0, 800)
 #CLICK IMAGE BOX
 pyautogui.moveTo(618, 325)
 pyautogui.click()
+
+
+#SELECT FILE //THIS LINE WILL KEEP CHANGING
 pyautogui.moveTo(552, 245)
 sleep(2)
 pyautogui.doubleClick()
 pyautogui.hotkey('enter')
 
 
-'''
-pyautogui.moveTo(259, 46)
-while x < 100000:
- pyautogui.hotkey('command', 't')
- #sleep(0.01)
- pyautogui.hotkey('command', 'l')
- #sleep(0.01)
- pyautogui.hotkey('command', 'v')
- #sleep(0.01)
- pyautogui.hotkey('enter')
- x=x+1
- #sleep(0.01)
- 
- if x%17 == 0:
-    #sleep(3)
-    for x in range(0, 5):
-     pyautogui.hotkey('command', 'w')
-     sleep(0.1)
- #sleep()
-'''
